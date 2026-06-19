@@ -1,0 +1,19 @@
+{
+  "name": "strategy-squad",
+  "interface": {
+    "displayName": "Strategy Squad"
+  },
+  "plugins": [
+    {
+      "name": "strategy-squad",
+      "source": {
+        "source": "local",
+        "path": "."
+      },
+      "policy": {
+        "installation": "AVAILABLE"
+      },
+      "category": "Strategy"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "strategy-squad",
+  "version": "0.1.0",
+  "description": "Run the Big 3 consultancies (McKinsey, BCG, Bain) as one rival AI strategy team: they fight, a judge panel runs an idea championship, a Blue Team builds on the wreckage, and the squad preps the human in the room with provocative questions and a pitch. Includes a human-gated autonomous loop mode and a compounding strategy-insights store.",
+  "author": {
+    "name": "Tim van den Bosch (Sitelane) with Joost de Leij",
+    "url": "https://github.com/limelights-amsterdam"
+  },
+  "homepage": "https://github.com/limelights-amsterdam/strategy-squad",
+  "repository": "https://github.com/limelights-amsterdam/strategy-squad",
+  "license": "MIT",
+  "keywords": [
+    "strategy",
+    "agent-teams",
+    "multi-agent",
+    "consulting",
+    "mckinsey",
+    "bcg",
+    "bain",
+    "blue-ocean",
+    "facilitation",
+    "compound"
+  ]
+}

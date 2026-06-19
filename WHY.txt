@@ -1,0 +1,51 @@
+================================================================
+WHY — strategy-squad (the design rationale)
+================================================================
+
+WHAT
+A Claude Code plugin that runs McKinsey, BCG and Bain as three rival AI
+associates on one strategy case, lets them fight, builds on the wreckage with a
+Blue Team, and then prepares the human facilitator who walks into the room.
+
+WHY THREE FIRMS INSTEAD OF ONE
+One model giving "an opinion" is easy to nod along to. Three house styles that
+genuinely disagree force the real choice into the open. The value isn't any single
+firm's answer — it's the TENSION between them:
+  - McKinsey structures the problem (and risks a tidy consensus answer).
+  - BCG runs the economics (and risks being cold and people-blind).
+  - Bain ranks the work and asks who owns it (and risks hugging the safe core).
+Each firm's blind spot is written into its cheatsheet, and the other firms attack
+it. A weakness that ≥2 independent judges call fatal doesn't survive. That's how
+you get an answer that survives a boardroom, not just a slide.
+
+WHY A BLUE TEAM AFTER THE ROAST
+The Big 3 are a red team — they shoot holes. Holes are where uncontested market
+space hides. The Blue Team turns the most brutal critiques into Blue Ocean moves
+("only is better than best") instead of leaving the room demoralized.
+
+WHY TRAIN-THE-TRAINER
+A strategist-facilitator's real job at a leadership off-site isn't to have the
+answer — it's to ask the questions nobody dares to. So the squad's last move is to
+convert the roast into the sharp, provocative questions the facilitator walks in
+with, plus a 2-minute pitch. The analysis is input; the questions are the
+deliverable.
+
+WHY LOOP MODE IS HUMAN-GATED
+Engineering can run autonomously for hours because tests and CI tell it when it's
+done. Strategy has no such oracle — no test says "this strategy is correct." So
+loop mode DEEPENS until the squad stops surfacing new fatal weaknesses, then STOPS
+at a human-review gate. It never finalizes a strategy unattended. This is the whole
+point: AI does the ranking and the heatmaps; the senior human owns the decision and
+the room. The recipe is free. The restaurant is what matters.
+
+WHY IT COMPOUNDS
+Each run banks reusable insights (per client, per market, per recurring pattern) in
+docs/strategy-insights/, and the next run reads them first. The squad gets sharper
+over time instead of starting cold every session.
+
+LINEAGE
+Framework material informed by Oria AI (McKinsey & BCG packs) and Bain's public
+methodology. Plugin packaging, the autonomous-loop idea, and the compounding store
+are modeled on EveryInc's compound-engineering-plugin (Kieran Klaassen). The
+orchestration, cheatsheets, championship, Blue Team and facilitator layer are
+original. A sequel to limelights-amsterdam/mckinsey-strategy-team.

@@ -59,6 +59,9 @@ Run these phases in order, labeling each clearly:
      as ammunition ("use this to push in the room — don't send it to the client").
    • YOUR OWN JUDGMENT (≥4 sentences, separate): is this board-ready? where's the
      blind spot in this case? what would you advise differently than all three firms?
+   Never invent numbers: where a figure, owner, date or target is unknown, write an
+   explicit placeholder [TO FILL: <what is needed>] — never a guessed value or a bare
+   X/€Y that reads as real. A board can act on a flagged gap, not on a fabricated one.
 
 Remember: the squad prepares the human; it does not replace them. The decision
 stays with the room.

@@ -24,7 +24,8 @@ All output goes to `<CWD>/<slug>/`, **not** `/tmp`.
 1. Run `pwd` → `<CWD>`. 2. Pick a **slug** (Golf 0). 3. `mkdir -p <CWD>/<slug>/`.
 4. Use **absolute paths** in every teammate prompt — teammates don't inherit cwd reliably.
 
-Files: `brief.md` · `01-mckinsey.md` · `01-bcg.md` · `01-bain.md` · `02-tournament.md` ·
+Files: `brief.md` · `01-mckinsey.md` · `01-bcg.md` · `01-bain.md` ·
+`02-judge-economics.md` · `02-judge-feasibility.md` · `02-judge-fit.md` · `02-tournament.md` ·
 `02-challenges.md` · `03-blue-ocean.md` · `04-provocative-questions.md` · `04-pitch.md` ·
 `decision-memo.md` · `facilitator-pack.md`.
 
@@ -72,6 +73,8 @@ didn't bite — `SendMessage` the offender to rewrite from its own DNA and blind
 
 ## Golf 3 — Idea championship (judge panel, ≥2 = decisive)
 Spawn three judges in ONE message. Each compares the three firms' recommended directions on its lens.
+**Judges write to a file** (not just chat) — a teammate's plain-text chat reply does not reliably reach
+you, so the verdict must land on disk where you can read it.
 ```
 name: judge-<economics|feasibility|fit>
 prompt: |
@@ -80,9 +83,10 @@ prompt: |
   Step 2: on your lens only (<economics: returns/cost/cash | feasibility: can it be executed/owned |
     fit: strategic fit + durability>), rank the three directions best→worst with one-line reasons, and
     list any weakness you consider FATAL (would sink the direction) with which firm it belongs to.
-  In chat (plain text): your ranking + your fatal flags. No file needed.
+  Output: write your ranking + fatal flags to <CWD>/<slug>/02-judge-<lens>.md (absolute path). English.
+  In chat only: "klaar, 02-judge-<lens>.md".
 ```
-Wait for all three. As partner, tally:
+Wait for all three idle. Read the three `02-judge-*.md` files. As partner, tally:
 - **Winner** = best aggregate rank across judges (graft the strongest ideas from runners-up).
 - **Fatal rule:** a weakness flagged by **≥2 judges** is decisive — it must be resolved or it changes
   the winner.
@@ -130,7 +134,13 @@ prompt: |
 Wait for both.
 
 ## Golf 6 — Partner synthesis (you)
-Read all files. Write to chat AND save two deliverables:
+Read all files. Write to chat AND save two deliverables.
+
+**Never invent numbers.** Where a figure, owner, date or target is unknown, write an explicit
+placeholder `[TO FILL: <what is needed>]` (e.g. `[TO FILL: auto-credit per covered outage, €]`,
+`[TO FILL: decision owner + budget]`) — never a guessed value, and never a bare `X`/`€Y` that reads as
+real. A board can act on a flagged gap; it cannot act on a fabricated number. Carry placeholders through
+from the firm/Blue-Team outputs rather than silently filling them.
 
 **`decision-memo.md`** (board-ready, ~1 page): SCQA question → Pyramid recommendation (the winning
 direction, grafted) → the ≥2-fatal risks and how they're addressed → first 90 days → a 60-second spoken

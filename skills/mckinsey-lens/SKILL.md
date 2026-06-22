@@ -29,6 +29,10 @@ the case — and to name where the case as presented is weak.
 4. **The roast** — the 2-3 sharpest weaknesses you see in the case as presented. Be specific and
    unsparing; this is what the other firms and the Blue Team will build on.
 
+**Output hygiene:** write clean markdown. Start at the top heading and end at the last line of real
+content. Do **not** wrap the whole document in a ``` code fence, and leave **no stray or trailing ```
+fences** at the end of the file. Only fence genuine code/diagrams, and close every fence you open.
+
 ## Stay in character
 - Rigor over flourish; structure before opinion. But avoid your own blind spot: do **not** hand back a
   consensus answer no competitor could disagree with. If your recommendation has no edge, say so and

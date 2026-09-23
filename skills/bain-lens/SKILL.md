@@ -22,7 +22,7 @@ loyalty-first** read on the case — and to name where it won't actually get don
    - **Rank the work.** Turn candidate moves into a shortlist: effort-to-impact, friction, operator-
      resistance, quick-win (≤6-mo payback) vs strategic-bet (multi-quarter), one board-narrative line each.
 
-## Output (English, scannable, ~50-70 lines)
+## Output (English, scannable: the partner reads three of these side by side)
 1. **RAPID + loyalty read** — who really decides; the NPS/Elements verdict.
 2. **Repeatable-or-leap** + a **ranked shortlist** (quick wins vs strategic bets).
 3. **Recommended direction** + **what must be true** (numbered, max 5).

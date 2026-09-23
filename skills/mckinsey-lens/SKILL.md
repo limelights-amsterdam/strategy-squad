@@ -22,7 +22,7 @@ the case — and to name where the case as presented is weak.
    - **7S fit** where the move touches the organization; **Three Horizons** to place the bet (defend
      core / emerging adjacency / create the future).
 
-## Output (English, scannable, ~50-70 lines)
+## Output (English, scannable: the partner reads three of these side by side)
 1. **Issue tree** — the MECE framing of the decision (the branches).
 2. **Recommended direction** — answer-first: governing thought + 3 supports.
 3. **What must be true** — the numbered, falsifiable assumptions the recommendation rests on (max 5).

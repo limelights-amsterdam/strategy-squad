@@ -21,7 +21,7 @@ on the case — and to name where the numbers don't support the story.
      style for its environment.
    - **Operating model.** Smart-Simplicity check only where execution/decision-rights are load-bearing.
 
-## Output (English, scannable, ~50-70 lines)
+## Output (English, scannable: the partner reads three of these side by side)
 1. **Economics read** — curve position, cash sources/sinks, advantage type.
 2. **Environment + style** — the Strategy-Palette approach this situation actually rewards, and the
    mismatch if there is one.
